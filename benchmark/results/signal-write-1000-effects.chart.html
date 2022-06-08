@@ -28,7 +28,7 @@
   </head>
   <body>
     <div class="container">
-      <canvas id="chart1654696585121" width="16" height="9"></canvas>
+      <canvas id="chart1654697063132" width="16" height="9"></canvas>
     </div>
     <script>
       const format = (num) => {
@@ -51,18 +51,18 @@
           chunked.map((chunk) => chunk.join('')).join(' ') + fractionStr
         )
       }
-      const ctx1654696585121 = document
-        .getElementById('chart1654696585121')
+      const ctx1654697063132 = document
+        .getElementById('chart1654697063132')
         .getContext('2d')
-      const chart1654696585121 = new Chart(ctx1654696585121, {
+      const chart1654697063132 = new Chart(ctx1654697063132, {
         type: 'bar',
         data: {
           labels: ["compostate","solid-js"],
           datasets: [
             {
-              data: [3882,9665],
-              backgroundColor: ["hsl(48.204, 85%, 55%)","hsl(120, 85%, 55%)"],
-              borderColor: ["hsl(48.204, 85%, 55%)","hsl(120, 85%, 55%)"],
+              data: [4195,9105],
+              backgroundColor: ["hsl(55.284, 85%, 55%)","hsl(120, 85%, 55%)"],
+              borderColor: ["hsl(55.284, 85%, 55%)","hsl(120, 85%, 55%)"],
               borderWidth: 2,
             },
           ],

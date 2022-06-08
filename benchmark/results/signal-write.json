@@ -1,18 +1,18 @@
 {
   "name": "signal-write",
-  "date": "2022-06-08T13:56:14.283Z",
+  "date": "2022-06-08T14:04:11.991Z",
   "version": null,
   "results": [
     {
       "name": "compostate",
-      "ops": 17128799,
-      "margin": 3.92,
-      "percentSlower": 70.6
+      "ops": 16672216,
+      "margin": 2.45,
+      "percentSlower": 70.51
     },
     {
       "name": "solid-js",
-      "ops": 58270437,
-      "margin": 1.76,
+      "ops": 56536642,
+      "margin": 2.52,
       "percentSlower": 0
     }
   ],

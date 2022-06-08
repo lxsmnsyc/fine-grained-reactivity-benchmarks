@@ -1,18 +1,18 @@
 {
   "name": "signal-write-1000-effects",
-  "date": "2022-06-08T13:56:25.121Z",
+  "date": "2022-06-08T14:04:23.132Z",
   "version": null,
   "results": [
     {
       "name": "compostate",
-      "ops": 3882,
-      "margin": 7.6,
-      "percentSlower": 59.83
+      "ops": 4195,
+      "margin": 0.82,
+      "percentSlower": 53.93
     },
     {
       "name": "solid-js",
-      "ops": 9665,
-      "margin": 0.92,
+      "ops": 9105,
+      "margin": 2.29,
       "percentSlower": 0
     }
   ],

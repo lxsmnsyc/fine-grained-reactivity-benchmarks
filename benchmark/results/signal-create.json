@@ -1,18 +1,18 @@
 {
   "name": "signal-create",
-  "date": "2022-06-08T13:55:41.225Z",
+  "date": "2022-06-08T14:03:38.997Z",
   "version": null,
   "results": [
     {
       "name": "compostate",
-      "ops": 150848720,
-      "margin": 1.37,
-      "percentSlower": 85.79
+      "ops": 146147947,
+      "margin": 1.72,
+      "percentSlower": 85.76
     },
     {
       "name": "solid-js",
-      "ops": 1061675790,
-      "margin": 1.45,
+      "ops": 1026347257,
+      "margin": 1.94,
       "percentSlower": 0
     }
   ],

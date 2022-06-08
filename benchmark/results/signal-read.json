@@ -1,27 +1,27 @@
 {
   "name": "signal-read",
-  "date": "2022-06-08T13:56:03.141Z",
+  "date": "2022-06-08T14:04:00.916Z",
   "version": null,
   "results": [
     {
       "name": "compostate",
-      "ops": 148345630,
-      "margin": 2.38,
-      "percentSlower": 4.63
+      "ops": 151155064,
+      "margin": 0.87,
+      "percentSlower": 0
     },
     {
       "name": "solid-js",
-      "ops": 155550669,
-      "margin": 1.05,
-      "percentSlower": 0
+      "ops": 150120003,
+      "margin": 0.87,
+      "percentSlower": 0.68
     }
   ],
   "fastest": {
-    "name": "solid-js",
-    "index": 1
-  },
-  "slowest": {
     "name": "compostate",
     "index": 0
+  },
+  "slowest": {
+    "name": "solid-js",
+    "index": 1
   }
 }

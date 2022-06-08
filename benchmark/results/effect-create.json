@@ -1,18 +1,18 @@
 {
   "name": "effect-create",
-  "date": "2022-06-08T13:55:52.206Z",
+  "date": "2022-06-08T14:03:49.896Z",
   "version": null,
   "results": [
     {
       "name": "compostate",
-      "ops": 3229345,
-      "margin": 2.77,
-      "percentSlower": 73.49
+      "ops": 3353003,
+      "margin": 1.66,
+      "percentSlower": 72.6
     },
     {
       "name": "solid-js",
-      "ops": 12183658,
-      "margin": 1.31,
+      "ops": 12238467,
+      "margin": 1.1,
       "percentSlower": 0
     }
   ],
