@@ -1,0 +1,27 @@
+{
+  "name": "signal-read",
+  "date": "2022-06-08T13:56:03.141Z",
+  "version": null,
+  "results": [
+    {
+      "name": "compostate",
+      "ops": 148345630,
+      "margin": 2.38,
+      "percentSlower": 4.63
+    },
+    {
+      "name": "solid-js",
+      "ops": 155550669,
+      "margin": 1.05,
+      "percentSlower": 0
+    }
+  ],
+  "fastest": {
+    "name": "solid-js",
+    "index": 1
+  },
+  "slowest": {
+    "name": "compostate",
+    "index": 0
+  }
+}
