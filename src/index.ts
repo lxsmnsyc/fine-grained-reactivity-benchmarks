@@ -6,9 +6,9 @@ import signalWrite1000Effects from './signal-write-1000-effects';
 
 async function start() {
   await signalCreate();
-  await effectCreate();
   await signalRead();
   await signalWrite();
+  await effectCreate();
   await signalWrite1000Effects();
 }
 

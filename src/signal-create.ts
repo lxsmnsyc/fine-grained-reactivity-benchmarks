@@ -1,19 +1,26 @@
 import { signal } from 'compostate';
 import { createSignal } from 'solid-js';
+import { createValue } from "@vzn/reactivity";
 import createTemplate from './template';
 
 export default async function signalCreate() {
   await createTemplate({
-    name: 'signal-create',
+    name: "signal-create",
     operations: [
       {
-        name: 'compostate',
+        name: "@vzn/reactivity",
+        call() {
+          createValue(0);
+        },
+      },
+      {
+        name: "compostate",
         call() {
           signal(0);
         },
       },
       {
-        name: 'solid-js',
+        name: "solid-js",
         call() {
           createSignal(0);
         },
