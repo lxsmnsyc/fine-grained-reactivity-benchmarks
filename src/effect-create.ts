@@ -1,19 +1,26 @@
-import { effect } from 'compostate';
-import { createEffect } from 'solid-js';
-import createTemplate from './template';
+import { reactive } from "@vzn/reactivity";
+import { effect } from "compostate";
+import { createEffect } from "solid-js";
+import createTemplate from "./template";
 
 export default async function effectCreate() {
   await createTemplate({
-    name: 'effect-create',
+    name: "effect-create",
     operations: [
       {
-        name: 'compostate',
+        name: "@vzn/reactivity",
+        call() {
+          reactive(() => {});
+        },
+      },
+      {
+        name: "compostate",
         call() {
           effect(() => {});
         },
       },
       {
-        name: 'solid-js',
+        name: "solid-js",
         call() {
           createEffect(() => {});
         },
