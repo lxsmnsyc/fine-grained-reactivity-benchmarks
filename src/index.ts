@@ -1,8 +1,8 @@
-import effectCreate from './effect-create';
-import signalCreate from './signal-create';
-import signalRead from './signal-read';
-import signalWrite from './signal-write';
-import signalWrite1000Effects from './signal-write-1000-effects';
+import signalCreate from "./benchmarks/signal-create";
+import signalRead from "./benchmarks/signal-read";
+import signalWrite from "./benchmarks/signal-write";
+import effectCreate from "./benchmarks/effect-create";
+import signalWrite1000Effects from "./benchmarks/signal-write-1000-effects";
 
 async function start() {
   await signalCreate();
@@ -14,10 +14,10 @@ async function start() {
 
 start().then(
   () => {
-    console.log('Done!');
+    console.log("Done!");
   },
   (err) => {
     console.error(err);
     process.exit(1);
-  },
+  }
 );

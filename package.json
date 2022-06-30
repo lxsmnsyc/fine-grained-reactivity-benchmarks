@@ -12,6 +12,7 @@
     "@vzn/reactivity": "^0.37.0",
     "benny": "^3.7.1",
     "compostate": "^0.4.0",
+    "oby": "^9.2.6",
     "solid-js": "^1.4.3"
   },
   "devDependencies": {

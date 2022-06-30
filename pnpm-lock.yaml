@@ -8,6 +8,7 @@ specifiers:
   esbuild: ^0.14.43
   eslint: ^8.17.0
   eslint-config-lxsmnsyc: ^0.4.1
+  oby: ^9.2.6
   solid-js: ^1.4.3
   tslib: ^2.4.0
   typescript: ^4.7.3
@@ -16,6 +17,7 @@ dependencies:
   '@vzn/reactivity': 0.37.0
   benny: 3.7.1
   compostate: 0.4.0
+  oby: 9.2.6
   solid-js: 1.4.3
 
 devDependencies:
@@ -2236,6 +2238,10 @@ packages:
       define-properties: 1.1.4
       es-abstract: 1.20.1
     dev: true
+
+  /oby/9.2.6:
+    resolution: {integrity: sha512-MVZ8u2DeiJPbOFP5Rs5uN9lZcA2WpKpL6TTIn15w4L6QMeDCXRPiE3uaAyOUCOa1sqiggWbteXO9obqCBimoxg==}
+    dev: false
 
   /once/1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
