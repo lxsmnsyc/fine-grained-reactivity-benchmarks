@@ -7,5 +7,6 @@
     "project": "./tsconfig.eslint.json"
   },
   "rules": {
+    "no-restricted-syntax": "off"
   }
 }
